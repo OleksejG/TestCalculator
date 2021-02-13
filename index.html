@@ -1,54 +1,63 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-<title>TestWork</title>
+<title>CalkJs</title>
 <link rel="stylesheet" href="CSS/style.css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width" 	>
 </head>
 <body>
-	<div class="body__form">
-		<span class="criate__type__acount">Login To Your Account / Register New</span>
-		<div class="form__conteiner">
-		<div class="form__acount">
-			<img class="notice__icon" src="img/2-layers.png" alt="">
-			<h1 class="form__type">Login To Your Account / Register New </h1>
-			</div>
-			<div class="form__flex">
-				<div class="form__login">
-					<img src="img/4-layers.png" alt="" class="form__img">
-					<form action="#" method="post">
-						<input type="text" placeholder="User Name" name="username" value="" class="login__input__username">
-						<input type="password" placeholder="Password"  name="userpass" value="" class="login__input__password" >
-
-						<div class="form__send">
-							
-								<div class="checkbox__conteiner"><input type="checkbox" name="Remember " value="" class="form__checbox" >
-								<span class="form__checbox__text" data-title="You no longer need to enter a password every time you use the site"> Remember My password</span></div>
-						<button type="submit" class="butoon__login">Login</button></div>
-					</form>
-
+	<div class="calculator">
+		<form action="#" method="get">
+			<div class="flex__calculator">
+				<div class="lenght">
+					<p>lenght</p>
+					<select  name="lenght" id="lenght__calc">
+						<option disabled>Введите длину</option>
+						<option value="2">2м</option>
+						<option value="4">4м</option>
+						<option value="6">6м</option>
+						<option value="8">8м</option>
+						<option value="10">10м</option>
+						<option value="12">12м</option>
+						<option value="14">14м</option>
+						<option value="16">16м</option>
+						<option value="18">18м</option>
+						<option value="20">20м</option>
+						<option value="22">22м</option>
+						<option value="24">24м</option>
+						<option value="26">26м</option>
+						<option value="28">28м</option>
+						<option value="30">30м</option>
+					</select>
 				</div>
-				<div class="border"><img  src="img/Layer_6.png" alt=""></div>
-				
-				<div class="form__register">
-					<span class="form__title">Register</span>
-						<form action="#" method="post">
-							<span class="form_list">Email</span>
-							<input type="text" name="username" value="" class="register__input__email">
-							<span class="form_list__username">User Name</span>
-							<input type="text"  name="username" value="" class="register__input__username">
-							<span class="form_list__password">Password</span>
-							<input type="text" name="username" value="" class="register__input__password">
-							<button type="submit" class="butoon__register">Register</button>
-						</form>
-
-
+				<div class="width">
+					<p>width</p>
+					<select  name="width" id="width__calc">
+						<option disabled>Введите ширину</option>
+						<option value="2">2м</option>
+						<option value="4">4м</option>
+						<option value="6">6м</option>
+						<option value="8">8м</option>
+						<option value="10">10м</option>
+						<option value="12">12м</option>
+						<option value="14">14м</option>
+						<option value="16">16м</option>
+						<option value="18">18м</option>
+						<option value="20">20м</option>
+						<option value="22">22м</option>
+						<option value="24">24м</option>
+						<option value="26">26м</option>
+						<option value="28">28м</option>
+						<option value="30">30м</option>
+					</select>
 				</div>
+				<div class="butoon">
+					<button type="submit" name="calculate" onclick="quantity()">calculate</button>
+				</div>
+				<script src="JS/script.js"></script>
 			</div>
-
-		</div>
-
+		</form>
 	</div>
 	</body>
 
