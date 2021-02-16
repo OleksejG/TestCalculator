@@ -16,7 +16,9 @@ let num__pack2=calculate / pack2;
 if(calculate===6,calculate===12){alert('You will need  '+num__pack2+' packs of 6 pcs') ;}
 else if (calculate>6 && calculate<9) {alert('You will need  '+num__pack+' packs of 8 pcs  ');}
 
-else if (num__pack>1){alert('You will need  '+num__pack_mat+' packs of 8 pcs  '+'and '+num__pack2__ost+' packs of 6 pcs') ;
+else if (num__pack>1 && num__ost <7){alert('You will need  '+num__pack_mat+' packs of 8 pcs  '+'and '+num__pack2__ost+' packs of 6 pcs') ;
+} 
+else if (num__ost >6){alert('You will need  '+num__pack+' packs of 8 pcs  ') ;
 } 
 else {alert('You will need  '+num__pack2+' packs of 6 pcs') ;
 }}
